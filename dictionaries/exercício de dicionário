@@ -1,0 +1,11 @@
+phonebook = {
+    "John": 12345,
+	"Jack": 34567,
+	"Jill": 2345678
+}
+
+if "Jack" in phonebook:
+    print("Jack is listed in the phonebook.")
+
+if "Jill" not in phonebook:
+    print("Jill is not listed in the phonebook")

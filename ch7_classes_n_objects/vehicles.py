@@ -22,8 +22,14 @@ class Vehicle:
 #car1.color = "crimson red"
 #car1.value = 100.00
 car1 = Vehicle()
+#Vehicle("foo", "bar", "bas", 200.00)
+car2 = Vehicle()
+car2.name = "foo"
+car2.kind = "bahr"
+car2.color = "red"
+car2.value = 200.00
 #test code
 print(car1.value)
 print(car1.description())
-#print(car2.description)
+print(car2.description())
     

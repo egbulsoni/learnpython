@@ -32,4 +32,3 @@ car2.value = 200.00
 print(car1.value)
 print(car1.description())
 print(car2.description())
-    

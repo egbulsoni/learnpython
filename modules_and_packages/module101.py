@@ -16,6 +16,7 @@ def main():
     dlg = draw.C4dDrawArea('A simple gray field.', area)
     dlg.open()
 
-main()
+if __name__ == '__main__':
+    main()
     
 # versão 5.3 do lua
